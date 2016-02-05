@@ -1,0 +1,124 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background: #fefefe url('/img/bg.jpg') repeat;
+  color: #444;
+}
+
+h1,h2,h3,h4,h5,h6,a,.button, button, input {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  margin: 5em auto 2.5em auto;
+}
+
+header h1 {
+  color: #42494F;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.heavy {
+  font-weight: 800;
+}
+
+.hidden {
+  display:none !important;  
+}
+
+.center {
+  text-align: center !important;
+}
+.left {
+  text-align: left !important;
+}
+
+.grey {
+  color: #666;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+.separator {
+  margin-top: 1em;
+}
+
+.boxy {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: #fcfbf8;
+  padding: 1.5em 0 0 0;
+  min-height: 11em;
+}
+
+.boxy label {
+  text-align: left;
+}
+
+.nav-links {
+  font-size: 1.4em;
+}
+
+.padded {
+  padding: 1em;
+}
+.padded-h {
+  padding: 0 1.5em;
+}
+.padded-v {
+  padding: 1.5em 0;
+}
+
+.map-canvas {
+  width:100%;
+  height:100%;
+  min-height:470px;
+}
+
+.delivery-info {
+  padding: 1em 2em;
+}
+
+.column-label {
+  font-weight: 800;
+}
+
+.column-label, .column-value {
+  font-size: 1.2em;
+  margin: .5em 0;
+  text-align: left;
+}
+
+.signature {
+  border: 1px solid #ddd;
+}
+
+@media screen and (max-width: 640px) {
+
+  .map-canvas {
+    width:100%;
+    height:100%;
+    min-height:240px;
+  }
+
+  .delivery-info {
+    padding: 1em;
+  }
+  .column-label, .column-value {
+    font-size: 1em;
+  }
+}
+
+

@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: BikePonyExpress
+        psr4_prefix: BikePonyExpress
+        src_path: app
